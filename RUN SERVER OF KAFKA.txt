@@ -1,0 +1,5 @@
+PROMPT TO RUN SERVER OF KAFKA
+
+C:\Users\RUSHIL>cd C:\kafka_2.13-3.9.0
+C:\kafka_2.13-3.9.0>bin\windows\kafka-server-start.bat config\server.properties
+

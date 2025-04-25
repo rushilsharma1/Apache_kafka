@@ -1,0 +1,13 @@
+To know about the the kafka topic we can use this 
+C:\kafka_2.13-3.9.0>bin\windows\kafka-topics.bat
+
+Topic create Topic
+C:\kafka_2.13-3.9.0>bin\windows\kafka-topics.bat --create --topic user--topic --bootstrap-server localhost:9092
+
+Produce new Topic(Producer)
+C:\kafka_2.13-3.9.0>bin\windows\kafka-console-producer.bat --topic user-topic --bootstrap-server localhost:9092
+
+Consume the new topic(COnsumer)
+C:\kafka_2.13-3.9.0>bin\windows\kafka-console-consumer.bat --topic user-topic --from-beginning --bootstrap-server localhost:9092
+
+for multiple consumer use this consumer code in different shell  
